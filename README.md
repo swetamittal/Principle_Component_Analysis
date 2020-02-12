@@ -6,3 +6,5 @@ Principle Component Analysis(PCA) is a technique which is udes to reduce dimensi
 # PCA On Breast Cancer Dataset
 
 The skicit  library of python consists of varius datasets, one of which is Breast Cancer Dataset. The dataset consists of 569 instances in total out of which 212 are malignant and 357 are beneign. 30 attributes define various features of each sample in the dataset. Now it is hard to work with 30 feature vectors due to increased amout of computation. Also, all the features donot have same amount of influence on the output. Hence the features with less impact are removed from final feature vector set using PCA. 
+
+In this project, the count of attributes is reduced to 15. For doing so, the inbuilt PCA transformer function is called with n_components as 15. After reduction, logistic regression is applied for classification into two classes i.e. benign and malignant.  
